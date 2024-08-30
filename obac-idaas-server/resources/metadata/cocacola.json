@@ -1,0 +1,15 @@
+{
+  "name":"Cocacola official sponsor qatar 2022",
+  "description":"",
+  "image":"ipfs://QmPLpE6XkDn25kS95jjtrDuAE6vUb1AhzxANN9jWRefwDx",
+  "attributes":[
+    {
+      "trait_type":"Ticket discount",
+      "value":"10%"
+    },
+    {
+      "trait_type":"EventID",
+      "value":"Qatar2022"
+    }
+  ]
+}

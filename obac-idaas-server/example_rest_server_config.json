@@ -1,0 +1,72 @@
+{
+    "server": {
+      "host": "octo.entrust.com",
+      "port": "3002",
+      "proxyPath": "",
+      "cors": {
+        "origins": [
+          "*"
+        ],
+        "allowedCredentials": true,
+        "allowedProperties": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "allowedHeaders": [
+          "Content-Type",
+          "Origin",
+          "Accept",
+          "Authorization"
+        ]
+      }
+    },
+    "authentication": {
+      "oidc": [
+        {
+          "configUri": "https://itautomation.us.dev.trustedauthdev.com/api/oidc/.well-known/openid-configuration",
+          "aud": [
+            "5cb2c9df-2b46-469c-824b-340e220ebf66"
+          ]
+        }
+      ],
+      "jwks": [
+        {
+          "issuer": "Albert",
+          "description": "Custom Auth Key for CLI calls",
+          "aud": [
+            "custom_audience_id"
+          ],
+          "keys": [
+            {
+              "kty": "RSA",
+              "e": "AQAB",
+              "use": "enc",
+              "kid": "123456789",
+              "alg": "RS256",
+              "n": "vTYaXE4Gros-aO3awoZSuqe7wkJmKE6PyZSEsHcjBR0QW0nbwbLpt1et9cNIBMkKuYjlfGMtOEsXRTgb99GI6iDEojlD8CZqSg8BP2oduO-dS40zv99f9-MbDmsC745iPH_4YV2fOkD_0CXxaoXRfCIAjJI8uBiIZjHZPizSMLukmxIRnSwoncYPAMF3VUrmXVWPWFCgW8ONM5xhROSVBcT_u2drOUNSmXsuN7tk_QTdYF9B1pgBt4UnWcBlO8EnaNCVTAm9mpXNmproWK2GB-a7fk4cMOvNYTQphQH5wZUQircM3WblXHmzoFEFLf50TbhOWD9gjocEDfdJBPVRmpQLn6eGzrj59daF5UK6YjHX8tFQNsmznw5pjKWi_Tlb0cT-LS6aYpLCkjR4D5pu8cqC5Qmh17KHQCfXmnQlJQNDPvQFOVD8EfEj9qqof5OJvSxvTlgaDvSU99dPeJGZUqK2mn--RFtgxsfIqG4gcR4Hy2Ms8unSA0smpMUFlCXR5-E5k9UeP2Yg3WMw2lI6qMr4FPPCyLt_bLvzOTqxW0dJwOW29ECO3EGZgl7SdB18ScTDicO8LvAR0-lj0wqUqZT5SjODWP0u-3eAYXH-e7I2MO68MnwK3KYl0SInhjhT_GvnFzh_yEpzJPvOGIpwR8-m1S3XjX174PADUEVMDVk"
+            }
+          ]
+        }
+      ]
+    },
+    "app": {
+      "protocol": "https",
+      "host": "octo.entrust.com",
+      "port": "3000",
+      "path": "/zt/dev/obac-fifa"
+    },
+    "idp": {
+      "protocol": "https",
+      "host": "octo.entrust.com",
+      "port": "3001",
+      "path": "/zt/dev/obac-idaas"
+    },
+    "bcProviders": {
+      "goerliApiUrl": "https://rough-dry-fire.ethereum-goerli.discover.quiknode.pro/f0f0fd22bc51b07c28b30012b8c0d2ac496fce8b/",
+      "mumbaiApiUrl": "https://polygon-mumbai.g.alchemy.com/v2/V9DhQ6OxXvZ-hKDMCr0Efhw0Z10ioTTn",
+      "binanceApiUrl": "https://old-practical-violet.bsc-testnet.discover.quiknode.pro/cc55a74bd963f0a22ce424b75333965c6c64c399/",
+      "goerliApiWebSocketUrl": "wss://rough-dry-fire.ethereum-goerli.discover.quiknode.pro/f0f0fd22bc51b07c28b30012b8c0d2ac496fce8b/"
+    }
+  }

@@ -1,0 +1,28 @@
+version: "3"
+services:
+  obac-fifa:
+    build:
+      context: obac-fifa
+      dockerfile: Dockerfile
+    expose:
+      - "3000"
+  obac-idaas:
+    build:
+      context: obac-idaas
+      dockerfile: Dockerfile
+    expose:
+      - "3000"
+  obac-idaas-server:
+    build:
+      context: obac-idaas-server
+      dockerfile: Dockerfile
+    expose:
+      - "8080"
+    volumes:
+      - ./obac-idaas-server/config/rest_server_config.json:/app/config/rest_server_config.json
+  nginx:
+    build:
+      context: nginx
+      dockerfile: Dockerfile
+    ports:
+      - "443:443"

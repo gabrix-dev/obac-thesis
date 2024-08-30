@@ -1,0 +1,73 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": "8080",
+    "proxyPath": "",
+    "tls": {},
+    "cors": {
+      "origins": [
+        "*"
+      ],
+      "allowedCredentials": true,
+      "allowedProperties": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "allowedHeaders": [
+        "Content-Type",
+        "Origin",
+        "Accept",
+        "Authorization"
+      ]
+    }
+  },
+  "authentication": {
+    "oidc": [
+      {
+        "configUri": "https:/.../.well-known/openid-configuration",
+        "aud": [
+          "..."
+        ]
+      }
+    ],
+    "jwks": [
+      {
+        "issuer": "Albert",
+        "description": "Custom Auth Key for CLI calls",
+        "aud": [
+          "custom_audience_id"
+        ],
+        "keys": [
+          {
+            "kty": "RSA",
+            "e": "AQAB",
+            "use": "enc",
+            "kid": "123456789",
+            "alg": "RS256",
+            "n": "..."
+          }
+        ]
+      }
+    ]
+  },
+  "app": {
+    "protocol": "https",
+    "host": "my.domain.com",
+    "port": "3000",
+    "path": "/zt/dev/obac-fifa"
+  },
+  "idp": {
+    "protocol": "https",
+    "host": "my.domain.com",
+    "port": "3001",
+    "path": "/zt/dev/obac-idaas"
+  },
+  "bcProviders": {
+    "goerliApiUrl": "https://rough-dry-fire.ethereum-goerli.discover.quiknode.pro/...",
+    "mumbaiApiUrl": "https://polygon-mumbai.g.alchemy.com/v2/...",
+    "binanceApiUrl": "https://old-practical-violet.bsc-testnet.discover.quiknode.pro/...",
+    "goerliApiWebSocketUrl": "wss://rough-dry-fire.ethereum-goerli.discover.quiknode.pro/..."
+  }
+}

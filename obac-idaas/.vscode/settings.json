@@ -1,0 +1,23 @@
+{
+    "python.envFile": "${workspaceFolder}/.vscode/vscode.env",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.wordBasedSuggestions": true,
+    "python.sortImports": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}

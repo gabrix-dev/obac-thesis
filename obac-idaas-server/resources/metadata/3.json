@@ -1,0 +1,31 @@
+{
+    "name":"Basic ticket",
+    "description":"Your standard bonus for Qatar 2022",
+    "image":"ipfs://QmY4eRbmnpgpa7Hg9TyxtDvg7d9MtX2ctpLViPofDJRJ8c",
+    "attributes":[
+        {
+        "trait_type":"Match",
+        "value":"Argentina - France"
+        },
+        {
+        "trait_type":"Ticket type",
+        "value":"Basic"
+        },
+        {
+        "trait_type":"Zones",
+        "value":"[2, 3]"
+        },
+        {
+        "trait_type":"Seat",
+        "value":"Normal"
+        },
+        {
+        "trait_type":"Dinner",
+        "value":"False"
+        },
+        {
+            "trait_type":"EventID",
+            "value":"Qatar2022"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name":"VIP premium ticket",
+    "description":"Live an exclusive experience from the best VIP locations, access to VIP Loung and Premium catering",
+    "image":"ipfs://QmPsf1okzqbJKoT7jjNMAEE4JXVqk3fhmYQtF19wgAXxVn",
+    "attributes":[
+        {
+        "trait_type":"Match",
+        "value":"Argentina - France"
+        },
+        {
+        "trait_type":"Ticket type",
+        "value":"VIP premium"
+        },
+        {
+        "trait_type":"Zones",
+        "value":"[VIP]"
+        },
+        {
+        "trait_type":"Seat",
+        "value":"Premium"
+        },
+        {
+        "trait_type":"Dinner",
+        "value":"True"
+        },
+        {
+            "trait_type":"EventID",
+            "value":"Qatar2022"
+        }
+    ]
+}

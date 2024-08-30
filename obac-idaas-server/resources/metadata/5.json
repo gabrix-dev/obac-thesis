@@ -1,0 +1,31 @@
+{
+    "name":"Basic plus ticket",
+    "description":"Upgrade your Basic matchday experience adding a snack + drink and improving your view",
+    "image":"ipfs://QmP9DrACijtQPfxihVwcgR3LVTF1myFrKgLs1YEprhzTbC",
+    "attributes":[
+        {
+        "trait_type":"Match",
+        "value":"Argentina - France"
+        },
+        {
+        "trait_type":"Ticket type",
+        "value":"Basic plus"
+        },
+        {
+        "trait_type":"Zones",
+        "value":"[1]"
+        },
+        {
+        "trait_type":"Seat",
+        "value":"Normal"
+        },
+        {
+        "trait_type":"Dinner",
+        "value":"True"
+        },
+        {
+            "trait_type":"EventID",
+            "value":"Qatar2022"
+        }
+    ]
+}
