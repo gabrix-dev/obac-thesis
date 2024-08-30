@@ -9,4 +9,4 @@ The aim of this project is to prove the viability and compatibility with the cur
 The results show that OBAC is feasible and can be integrated with the existing industry- standard protocols for authorization. It has been proved that, by using OBAC users no longer have to disclose their identity when accessing a service, resulting in improved privacy. Furthermore, access to a digital service becomes transferable and tradeable if its access is based on ownership of a NFT.
 
 ## Demo
-[![OBAC demo](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/username/repository/branch/path/to/video.mp4)
+[![OBAC demo](https://github.com/gabrix-dev/obac-thesis/blob/master/tfg_thumbnail.png)](https://github.com/gabrix-dev/obac-thesis/blob/master/obac_demo.mp4)
